@@ -1,8 +1,15 @@
+import React from 'react'
+import Header from './components/Header'
 
 function App() {
-  return (
-    <h1>Olá mundo</h1>
-  );
+  return(
+    <>
+        <Header/>
+        <Header/>
+        <Header/>
+        <Header/>
+    </>
+  )
 }
 
 export default App;
